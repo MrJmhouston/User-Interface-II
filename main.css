@@ -664,8 +664,8 @@ input[type="submit"]:hover {
 
         .experience {
         margin: 0% 0% 0% 10%;
-    }
-    }
+        }
+}
 
 /* end media queries (1060px) */
 
@@ -800,7 +800,7 @@ input[type="submit"]:hover {
     .top-nav.open {
         top: 0;
         width: 50%;
-        height: 55%;
+        height: 50%;
         margin-left: 60%;
         border-bottom-right-radius: 0%;
         border-bottom-left-radius: 70%;
@@ -811,13 +811,14 @@ input[type="submit"]:hover {
     }
 
     .nav-list a {
-        font-size: 160%;
+        font-size: 200%;
     }
 
     .landing-text {
-        width: 110%;
-        padding: 0%;
-        margin: 0% 0% 0% 25%;
+        height: 50%;
+        width: 150%;
+        padding: 10%;
+        margin: 0% 0% 0% 35%;
     }
 
     .landing-text h6 {
@@ -831,22 +832,25 @@ input[type="submit"]:hover {
     }
 
     .profile-img {
-        padding-left: 130%;
+        padding-left: 150%;
     }
 
     .container .about-details {
-        margin: 0% 0% 0% 65%;
+        margin: 0% 0% 0% 85%;
         
     }
 
     .container .section-heading .skill-heading {
         width: 190%;
-        margin: -50% 0% -500% 7%;
+        margin: -50% 0% -500% 17%;
     }
 
     .my-skills {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
         width: 200%;
-        margin: -30% 0% 0% -36%;
+        margin: 0% 0% 0% -23%;
     }
 
     .container .about-details {
@@ -859,12 +863,12 @@ input[type="submit"]:hover {
 
     .portfolio-heading h1 {
         width: 200%;
-        margin: 0% 0% 0% 0%;
+        margin: 0% 0% 0% 23%;
     }
 
     .portfolio-heading h6 {
         width: 200%;
-        margin: 20% 0% 0% 0%;
+        margin: 20% 0% 0% 23%;
     }
 
     .container .section-heading .portfolio-heading {
@@ -876,12 +880,12 @@ input[type="submit"]:hover {
     }
 
     .portfolio-img {
-        padding: 0% 0% 0% 40%;
+        padding: 0% 0% 0% 52%;
     }
 
     .portfolio-description {
         width: 200%;
-        padding: 0 0 0 50%;
+        padding: 0 0 0 60%;
         order: 2;
     }
 
@@ -909,11 +913,11 @@ input[type="submit"]:hover {
     }
 
     .contact {
-        width: 150%;
+        width: 160%;
     }
 
     .copyright {
-        width: 150%;
+        width: 160%;
     }
 }
 /* end media queries (360px) */
