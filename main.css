@@ -664,28 +664,53 @@ input[type="submit"]:hover {
 
         .experience {
         margin: 0% 0% 0% 10%;
-        }
-}
+    }
+    }
 
 /* end media queries (1060px) */
 
 /* start media queries (800px) */
 @media screen and (max-width: 800px) {
+
     .nav-list a {
         font-size: 140%;
     }
+
+    .my-skills {
+        /* display: flex; */
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+
+    .portfolio {
+        margin: 0 0% 0 0%;
+    }
+
+    .portfolio-description p {
+        width: 120%;
+    }
+
+    .timeline {
+        width: 150%;
+    }
+
 }
 /* end media queries (800px) */
 
 /* start media queries (500px) */
 @media screen and (max-width: 500px) {
+    body {
+        max-width: 150%;
+    }
     .top-nav.open {
         top: 0;
-        width: 50%;
-        height: 65%;
-        margin-left: 60%;
+        width: auto;
+        height: 64%;
+        margin-left: 75%;
         border-bottom-right-radius: 0%;
-        border-bottom-left-radius: 70%;
+        border-bottom-left-radius: 0%;
     }
 
     .nav-list {
@@ -697,16 +722,13 @@ input[type="submit"]:hover {
     }
 
     .landing-text {
-        width: 100%;
-        margin: 0% 0% 0% 20%;
-    }
-
-    .landing-text h1 {
-        font-size: 800%;
+        width: 120%;
+        /* padding-left: 25%; */
+        margin: 0% 0% 0% 16%;
     }
 
     .landing-text h6 {
-        font-size: 320%;
+        font-size: 280%;
     }
 
     .container {
@@ -716,29 +738,25 @@ input[type="submit"]:hover {
     }
 
     .profile-img {
-        margin: 0% 0% 0% 70%;
+        margin: -10% 10% 0% 70%;
     }
 
     .container .about-details {
-        width: 170%;
-        margin: 0% 0% 0% 70%;
-    }
-
-    .my-skills {
-        flex-direction: column;
-        width: 200%;
+        margin: 0% 0% 0% 62%;
     }
 
     .my-skills .skill {
-        margin: 0% 0% 0% 10%;
+        width: 100%;
+        margin: 10% 0% 0% 30%;
     }
 
     .container .section-heading .skill-heading {
-        margin: 0% -70% 0% 0%;
+        width: 100%;
+        margin: -20% 0% -30% 30%;
     }
 
     .container .about-details {
-        margin-top: 30%;
+        margin-top: 5rem;
     }
 
     .social-media .nav-list {
@@ -746,15 +764,17 @@ input[type="submit"]:hover {
     }
 
     .portfolio-heading h1 {
-        margin: 50% -55% 0% 0%;
+        margin: 0% -19% 0% 0%;
     }
 
     .portfolio-heading h6 {
-        margin: 10% -55% 0% 0%;
+        width: 100%;
+        margin: 10% 0% 0% 10%;
     }
 
     .container .section-heading .portfolio-heading {
-        margin: -30% 0% 0% 40%;
+        width: 100%;
+        margin: -20% 0% 0% 22%;
     }
 
     .portfolio-item {
@@ -762,7 +782,8 @@ input[type="submit"]:hover {
     }
 
     .portfolio-img {
-        margin: 0% 0% 20% 140%;
+        margin: 0% 0% 20% 120%;
+        padding: 0% 0% 0% 0%;
     }
 
     .portfolio-description {
@@ -770,16 +791,25 @@ input[type="submit"]:hover {
     }
 
     .portfolio-description p {
-        width: 200%;
-        font-size: 250%;
+        width: 120%;
+        font-size: 150%;
     }
 
     .experience-heading {
-        display: none;
+        margin: 0% 0% 0% 26.5%;
     }
 
     .experience {
-        display: none;
+        margin: -20% 0% 0% 20%;
+    }
+
+    .date.date::before {
+        font-size: 180%;
+    }
+
+    .timeline p {
+        width: 280%;
+        font-size: 170%;
     }
 
     .contact .container {
@@ -787,11 +817,11 @@ input[type="submit"]:hover {
     }
 
     .contact {
-        width: 135%;
+        width: 130%;
     }
 
     .copyright {
-        width: 135%;
+        width: 130%;
     }
 }
 /* end media queries (500px) */
@@ -800,11 +830,11 @@ input[type="submit"]:hover {
 @media screen and (max-width: 360px) {
     .top-nav.open {
         top: 0;
-        width: 50%;
+        width: auto;
         height: 55%;
-        margin-left: 60%;
+        margin-left: 70%;
         border-bottom-right-radius: 0%;
-        border-bottom-left-radius: 70%;
+        border-bottom-left-radius: 0%;
     }
 
     .nav-list {
@@ -819,7 +849,7 @@ input[type="submit"]:hover {
         height: 50%;
         width: 150%;
         padding: 10%;
-        margin: 0% 0% 0% 35%;
+        margin: 0% 0% 0% 30%;
     }
 
     .landing-text h6 {
@@ -833,17 +863,18 @@ input[type="submit"]:hover {
     }
 
     .profile-img {
-        padding-left: 150%;
+        /* padding-left: 150%; */
+        margin: 0% -100% 0% 22%;
     }
 
     .container .about-details {
-        margin: 0% 0% 0% 85%;
+        margin: 20% -100% 0% 22%;
         
     }
 
     .container .section-heading .skill-heading {
         width: 190%;
-        margin: -50% 0% -500% 17%;
+        margin: -20% 0% -500% 17%;
     }
 
     .my-skills {
@@ -851,7 +882,7 @@ input[type="submit"]:hover {
         flex-direction: column;
         flex-wrap: nowrap;
         width: 200%;
-        margin: 0% 0% 0% -23%;
+        margin: 0% 0% 0% -48%;
     }
 
     .container .about-details {
@@ -864,16 +895,16 @@ input[type="submit"]:hover {
 
     .portfolio-heading h1 {
         width: 200%;
-        margin: 0% 0% 0% 23%;
+        margin: 0% 0% 0% 0%;
     }
 
     .portfolio-heading h6 {
         width: 200%;
-        margin: 20% 0% 0% 23%;
+        margin: 10% 0% 0% 0%;
     }
 
     .container .section-heading .portfolio-heading {
-        margin: -50% 0% 0% 40%;
+        margin: -50% 0% 0% 12%;
     }
 
     .portfolio-item {
@@ -881,7 +912,7 @@ input[type="submit"]:hover {
     }
 
     .portfolio-img {
-        padding: 0% 0% 0% 52%;
+        padding: 0% 0% 0% 43%;
     }
 
     .portfolio-description {
